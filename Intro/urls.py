@@ -18,10 +18,12 @@ from django.urls import path, include, re_path
 from rest_framework import routers
 from rest_framework.authtoken import views
 from notes.api import PersonalNoteViewSet
+from accounts.serializers import UserViewSet
 
 router = routers.DefaultRouter()
 router.register(r'notes', PersonalNoteViewSet)
-
+##make route for login and register use something different the PersonalNoteVewSet.
+router.register(r'accounts', UserViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
