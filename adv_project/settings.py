@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_auth',
     'django.contrib.sites',
-    # 'allauth',
-    # 'allauth.account',
+    'allauth',
+    'allauth.account',
     'rest_auth.registration',
     'whitenoise.runserver_nostatic',
 ]
