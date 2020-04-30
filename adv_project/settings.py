@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'adventure',
     'api',
     'notes',
-    # 'corsheaders',
+    'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
