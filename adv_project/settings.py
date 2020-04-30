@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'adventure',
     'api',
-    'notes'
+    'notes',
     # 'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
