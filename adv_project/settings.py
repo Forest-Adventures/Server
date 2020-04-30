@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'notes',
     'accounts',
     'api',
-    'corsheaders',
+    # 'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
