@@ -45,11 +45,12 @@ INSTALLED_APPS = [
     # 'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
-    'rest_auth',
+    # 'rest_auth',
     'django.contrib.sites',
-    'allauth',
-    'allauth.account',
-    'rest_auth.registration',
+    # 'allauth',
+    # 'allauth.account',
+    # 'rest_auth.registration',
+    'whitenoise.runserver_nostatic',
 ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
